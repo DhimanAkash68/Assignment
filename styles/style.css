@@ -1,0 +1,150 @@
+*{
+	font-family: "Azeret Mono", monospace;
+}
+
+.head{
+
+	display: flex;
+	justify-content: space-between; 
+	margin: 64px 48px 0px 48px;
+}
+.head-name{
+	font-size: 28px;
+	font-family: "Azeret Mono";
+}
+.btn-head{
+    font-color:black;
+    background-color: white;
+    
+    border-radius: 15%;
+}
+.div-1{
+	background-image: url("../images/Hero-bg.png");
+
+	height: 652px;
+	
+	padding-top: 24px;
+    padding-left: 200px;
+    padding-right: 200px;
+	
+}
+.inner-div-1{
+	height: auto;
+	
+	/*
+	    margin-top: 24px;
+    margin-left: 220px;
+    margin-right: 220px;
+    */
+	/* border: 1px solid black; */
+	/*box-sizing: content-box;  */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.h1-div-1{
+	font-size: 48px;
+	font-weight: 900;
+	font-color:#0D1321;
+	text-align: center;
+	opacity: 100%;
+}
+
+.p-div-1{
+	font-size: 16px;
+	opacity: 70%;
+	text-align: center;
+	
+}
+
+.btn-div-1{
+	background-color: black;
+	height: auto;
+	width: auto;
+	font-size: 20px;
+	color:white;
+	padding:8px;
+}
+.div-2{
+	margin-top:48px;
+	padding: 80px 96px 80px 96px;
+	border: 5px solid;
+	background-color: F0D1321;
+
+}
+.h1-div-2-top{
+	font-size: 32px;
+	text-align: center;
+}
+.p-div-2-top{
+	font-size: 18px;
+	text-align: center;
+}
+.inner-div-2-second{
+	display: flex;
+	/* flex-direction: column;*/
+}
+.inner-div-2-third{
+	display: flex;
+	/* flex-direction: column;*/
+}
+.inner-div-2-fourth{
+	display: flex;
+}
+
+.div-3{
+	/*margin-top:48px;*/
+	/*padding: 0px 32px 32px 96px;*/
+	/*padding:32px;
+	border: 5px solid;
+	background-color: white;*/
+	/* display: flex;
+	flex-direction: column; */
+	/*justify-content: center;*/
+	/* margin: 0px; */
+	margin: 0px 128px 0px 128px;
+	padding: 32px;
+	border: 5px solid;
+	text-align: center;
+
+}
+
+.div-3-video{
+	/*height: fixed; */
+	/*width: fit-content;*/
+	/* width: 100% ;
+	height: 100%; */
+	/* width: 1075px;
+	height: 550px; */
+	justify-content: center;
+	
+}
+.div-3-video-inner{
+	width: 100% ;
+	height: 550px; 
+	border-radius: 16px;
+}
+
+
+
+
+
+.div-4{
+	text-align:center;
+}
+
+.div-4-top h1{
+    font-size: 32px;
+    
+   
+}
+.div-4-top p{
+    width: 670px;
+    font-size: 16px;
+    
+    margin: 0 auto; 
+}
+.div-4-down{
+	display: flex;
+}
+
