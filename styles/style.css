@@ -130,6 +130,8 @@
 
 
 .div-4{
+	margin: 32px 128px 32px 128px;
+	border: 5px solid;
 	text-align:center;
 }
 
