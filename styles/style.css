@@ -147,6 +147,41 @@
     margin: 0 auto; 
 }
 .div-4-down{
+	margin-top: 32px;
 	display: flex;
+	justify-content: space-around;
+	align-items: start;
+}
+.div-4-down-1, .div-4-down-2, .div-4-down-3{
+	margin:0px 16px 0px 0px;
+	background-color:#EBEBEB;
+	padding: 18px 0px;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	text-align: left;
+
+	
+
+}
+.div-4-down-3{
+	margin:0px 0px 0px 0px;
 }
 
+
+.div-5{
+	/* margin: 0px 128px 0px 128px; */
+	margin:0px 128px;
+	
+	height: hug;
+	background-image: url("../images/handshake.jpg");
+	border-radius: 16px;
+	padding: 64px 48px;
+	justify-content: center;
+	text-align: center;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
